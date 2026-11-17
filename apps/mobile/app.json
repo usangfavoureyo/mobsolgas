@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "Mobsol Gas",
+    "slug": "mobsol-gas",
+    "scheme": "mobsolgas",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mobsolgas.app"
+    },
+    "android": {
+      "package": "com.mobsolgas.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#174B37"
+      }
+    },
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/mobsol-combination-logo.png",
+          "imageWidth": 260,
+          "resizeMode": "contain",
+          "backgroundColor": "#161616",
+          "dark": {
+            "image": "./assets/images/mobsol-combination-logo.png",
+            "backgroundColor": "#161616"
+          }
+        }
+      ],
+      "expo",
+      [
+        "expo-contacts",
+        {
+          "contactsPermission": "Allow Mobsol Gas to access your contacts so you can choose a delivery recipient."
+        }
+      ]
+    ],
+    "web": {
+      "splash": {
+        "image": "./assets/images/mobsol-combination-logo.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#161616"
+      }
+    }
+  }
+}

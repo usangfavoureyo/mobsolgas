@@ -1,0 +1,13 @@
+{
+  "name": "mobsol-gas-platform",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": ["apps/web", "apps/mobile"],
+  "scripts": {
+    "dev:web": "npm run dev --workspace @mobsol/web",
+    "dev:mobile": "npm run start --workspace @mobsol/mobile",
+    "build:web": "npm run build --workspace @mobsol/web",
+    "typecheck:web": "npx tsc --noEmit -p apps/web/tsconfig.json",
+    "typecheck:mobile": "npm run typecheck --workspace @mobsol/mobile"
+  }
+}
