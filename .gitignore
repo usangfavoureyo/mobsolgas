@@ -31,3 +31,5 @@ coverage/
 Thumbs.db
 *.swp
 *.swo
+
+supabase/.temp/
